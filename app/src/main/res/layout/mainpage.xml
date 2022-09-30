@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/rown">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+<LinearLayout
+    android:id="@+id/breakfastl"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_gravity="center"
+        android:background="@drawable/rambagh"
+        android:id="@+id/breekk" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#00aa00"
+        android:text="Break Fast"
+        android:id="@+id/breek" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/lunchl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text=""
+            android:background="@drawable/rajasthani"
+            android:id="@+id/rajss" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="#00aa00"
+            android:text="Lunch"/>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/Dinnerl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text=""
+                android:background="@drawable/dinn"
+                android:id="@+id/rajasthani" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="#00aa00"
+                android:text="Dinner"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
